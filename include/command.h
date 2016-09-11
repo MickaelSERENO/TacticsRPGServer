@@ -1,0 +1,14 @@
+#ifndef  COMMAND_INC
+#define  COMMAND_INC
+
+#define GET_NICKNAME  0x01 //The nickname
+#define GET_CLASS     0x02 //The class to play
+#define GET_TYPE      0x03 //The type of the class to play
+#define GET_ACTION    0x04 //The action of a unit
+	#define ACTION_MOVE   0x01 //The motion
+	#define ACTION_ATTACK 0x02
+#define GET_END_TURN    0x05
+#define GET_DICEVALUE   0x06
+#define GET_CREATE_UNIT 0x07
+
+#endif
